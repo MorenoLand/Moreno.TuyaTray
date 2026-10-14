@@ -1,5 +1,5 @@
 {
-  "name": "Cottage",
+  "name": "Single-story house",
   "size": [5.6, 4.8, 1.9],
   "slots": [
     {"room": "bed", "x": 1.0, "y": 0.9, "z": 1.25}, {"room": "bed", "x": 2.2, "y": 0.4, "z": 0.7},

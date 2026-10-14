@@ -426,7 +426,7 @@ func (l *live) PlanName() string {
 	l.mu.Lock()
 	defer l.mu.Unlock()
 	if l.settings.HomePlan == "" {
-		return "apartment"
+		return "twostory"
 	}
 	return l.settings.HomePlan
 }

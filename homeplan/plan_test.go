@@ -19,7 +19,7 @@ func TestPresetsParse(t *testing.T) {
 }
 
 func TestTagMatchesRoomNames(t *testing.T) {
-	p, err := Preset("apartment")
+	p, err := Preset("twostory")
 	if err != nil {
 		t.Fatal(err)
 	}

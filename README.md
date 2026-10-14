@@ -20,7 +20,7 @@ A small native Windows tray app that lists the lights and plugs in a Tuya accoun
 - Schedules and a sleep timer: switch lights, rooms or everything on or off, dim, or run a scene or effect at a set time on chosen days. Times show in 12-hour format by default, with a setting for 24-hour.
 - Light show: sync chosen lights to the colours of a screen area, or to the sound playing on the PC (system audio loopback, not the microphone). It talks to the bulbs over the LAN only, so bulbs without a LAN address are skipped. Stop it from the panel or the tray menu.
 - Icons: give any light, plug or room one of 16 built-in icons or your own image. Chosen images are cropped square, shrunk to 96 px and copied into `%APPDATA%\TuyaTray\icons`, so the original file is not needed afterwards.
-- Home design: the home view is drawn from a JSON plan. Pick Apartment, Studio or Cottage in Settings, or save your own as `house.json` in the settings folder (the web panel has an editor and the schema is validated on save).
+- Home design: the home view is drawn from a JSON plan. Pick Two-story house, Single-story house or Open studio in Settings, or save your own as `house.json` in the settings folder (the web panel has an editor and the schema is validated on save).
 
 ## Use
 

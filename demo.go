@@ -68,7 +68,7 @@ func (demo) APIStatus() string              { return "" }
 func (d demo) Plan() *homeplan.Plan {
 	id := d.plan
 	if id == "" {
-		id = "apartment"
+		id = "twostory"
 	}
 	p, _ := homeplan.Preset(id)
 	return p

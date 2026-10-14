@@ -1,5 +1,5 @@
 {
-  "name": "Studio",
+  "name": "Open studio",
   "size": [6, 4.4, 1.9],
   "slots": [
     {"room": "bed", "x": 1.2, "y": 1.0, "z": 1.25}, {"room": "bed", "x": 0.45, "y": 0.35, "z": 0.7},

@@ -243,6 +243,6 @@ func Load(name, dir string) *Plan {
 	if p, err := Preset(name); err == nil {
 		return p
 	}
-	p, _ := Preset("apartment")
+	p, _ := Preset("twostory")
 	return p
 }

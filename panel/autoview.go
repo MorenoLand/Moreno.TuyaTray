@@ -465,7 +465,7 @@ func (p *Panel) designView(top float32) {
 	s := p.settings
 	cur := s.HomePlan
 	if cur == "" {
-		cur = "apartment"
+		cur = "twostory"
 	}
 	p.text(16, top+6, "Home design", 18, cWhite, semi)
 	var chips []chipSpec
