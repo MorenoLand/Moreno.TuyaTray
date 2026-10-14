@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#14173c">
+<title>Smart lights</title>
+<link rel="stylesheet" href="/web/app.css">
+</head>
+<body>
+<div id="app">
+<header class="hdr">
+<div class="hbtn" id="back" title="Back"></div>
+<div class="htx"><b id="home">My Home</b><span id="sub"></span></div>
+<div class="hbtn round" id="tools" title="Schedules, timer and light show"></div>
+<div class="hbtn round" id="refresh" title="Refresh devices"></div>
+<div class="hbtn power" id="all" title="All lights"></div>
+</header>
+<div class="hero" id="hero"><canvas id="house"></canvas><div class="herohint" id="herohint"></div></div>
+<main id="body"></main>
+</div>
+<div id="modal"></div>
+<script src="/web/house.js"></script>
+<script src="/web/app.js"></script>
+</body>
+</html>
